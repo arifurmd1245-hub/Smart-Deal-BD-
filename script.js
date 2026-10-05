@@ -63,5 +63,6 @@ function viewProduct(productId) {
     if (!product) return;
 
     window.location.href = "product.html?id=" + product.id;
+}
 
 showProducts();
