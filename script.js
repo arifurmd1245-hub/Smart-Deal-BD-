@@ -62,11 +62,6 @@ function viewProduct(productId) {
 
     if (!product) return;
 
-    if (product.buyLink) {
-        window.open(product.buyLink, "_blank");
-    } else {
-        alert("Product link will be added soon.");
-    }
-}
+    window.location.href = "product.html?id=" + product.id;
 
 showProducts();
