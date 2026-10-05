@@ -4,7 +4,7 @@ const products = [
         name: "Smart Product 01",
         price: 499,
         description: "Interesting product description goes here.",
-        image: "image: "images/images (3).jpeg",
+        image:"image/images(3).jpeg",
         video: "",
         buyLink: ""
     },
